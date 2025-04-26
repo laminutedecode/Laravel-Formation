@@ -32,3 +32,10 @@ class ArticleProvider extends ServiceProvider
         //
     }
 }
+
+// Configurer le dans congif > app.php ajouter:
+
+    // 'providers' => [
+    //     // ...
+    //     App\Providers\ArticleServiceProvider::class,
+    // ],
